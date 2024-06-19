@@ -58,7 +58,7 @@ class App extends React.Component {
                     </div>
                     <div className="buttons">
                         <a id="tweet-quote" 
-                            target="_blank" 
+                            target="_blank" rel="noreferrer"
                             href={`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${quote}`}
                             style={{backgroundColor: randomColor, transition}}
                             >
